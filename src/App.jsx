@@ -202,7 +202,7 @@ function App() {
               }}
               >
               <Input
-              onKeyDown={(event)=>{if(event.keyCode == 13) addTask()}} 
+              onKeyDown={(event)=>{if(event.keyCode === 13) addTask()}} 
               placeholder="add your task here" 
               allowClear 
               onChange={(event)=>{
